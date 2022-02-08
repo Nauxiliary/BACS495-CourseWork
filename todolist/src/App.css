@@ -28,8 +28,16 @@
   color: #61dafb;
 }
 
-.TodoList {
-  display: flex;
+.Todolist {
+  list-style-type: none;
+}
+
+.TodolistButton {
+  margin: 15px 32px;
+  display: inline-block;
+  background-color: coral;
+  border-radius: 6px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 @keyframes App-logo-spin {
